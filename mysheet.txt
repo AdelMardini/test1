@@ -1,0 +1,11 @@
+printenv
+env
+set
+echo $PATH
+echo $USER
+echo $HOME
+
+export NEWVAR=value123
+echo $NEWVAR
+set | grep "NEWVAR"
+unset NEWVAR
